@@ -1,0 +1,7 @@
+<!ELEMENT parent (clients*)>
+<!ELEMENT clients (name,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ATTLIST name type CDATA "varchar">
+<!ATTLIST address type CDATA "varchar">
